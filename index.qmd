@@ -8,7 +8,7 @@ engine: knitr
 ---
 
 # Instructions
-Wait until `WEBR` status exactly under **TEST 1 (26th July, 2024)** is **Ready**. Ideally it takes less than a seconds. You have twenty minutes to answer the questions. Good luck!!
+Wait until `WEBR` status exactly under **TEST 1 (26th July, 2024)** is **Ready**. Ideally it takes less than a seconds. You have twenty minutes to answer the questions. Do not reload the page. If you, you lose your progress. **Good luck!!**
 
 # Questions
 

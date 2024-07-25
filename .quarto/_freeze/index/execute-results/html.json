@@ -1,0 +1,17 @@
+{
+  "hash": "94170f7269c756243514991fc38152e5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Test 1 (26th July 2024)\"\nformat: html\nfilters: \n - webr\nengine: knitr\n---\n\n\n## Test\n\nThis test is going to be a very short one feel free to run wild.\n\n\n1. create a vector of even numbers from 200 to 400 and save it in a variable called `my_even_number`. Print your result\n```{webr-r}\n\n```\n\n2. How many even numbers do we have in `my_even_number`\n```{webr-r}\n\n```\n\n3. create a vector of odd numbers from 30 to 108 and save it in a variable called `my_odd_number`\n```{webr-r}\n\n```\n\n4. what is the median of `my_odd_number`\n```{webr-r}\n\n```\n\n5. what is the average of `my_even_number`\n```{webr-r}\n\n```\n\n6. Using R, find the remainder of 498 divided by 5\n```{webr-r}\n\n```\n\n7. Change the word **greatest** from lower to upper letter\n```{webr-r}\n\n```\n\n8. Get the total value if you add `my_even_number`and `my_odd_number`\n```{webr-r}\n\n```\n\n9. create a sequence of number from -10 to 10. and save it to the variable name `my_number`. Confirm if `my_number` data type is a character data type\n```{webr-r}\n\n\n```\n\n10. If your answer in the previous is **TRUE** find the sum, else convert it to a character type\n```{webr-r}\n\n```\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

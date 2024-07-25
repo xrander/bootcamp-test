@@ -1,0 +1,17 @@
+{
+  "hash": "5ab26dc4a4d72c6f475881f44f59ef9d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"bootcamp-test-1-v1\"\nformat: html\nfilters: \n - webr\nengine: knitr\n---\n\n\n## Test\n\nThis test is going to be a very short one feel free to run wild.\n\n- Create a vector of even numbers\n\n```{webr-r}\n\n```\n",
+    "supporting": [
+      "bootcamp-test_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

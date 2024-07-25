@@ -1,5 +1,6 @@
 ---
-title: "Test 1 (26th July, 2024)"
+title: "EU StudyAssist"
+subtitle: "R for Research Test 1 (26th July, 2024)"
 format: html
 filters: 
  - webr

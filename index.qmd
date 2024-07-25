@@ -1,15 +1,15 @@
 ---
-title: "Test 1 (26th July 2024)"
+title: "Test 1 (26th July, 2024)"
 format: html
 filters: 
  - webr
 engine: knitr
 ---
 
-## Test
+# Instructions
+Wait until `WEBR` status exactly under **TEST 1 (26th July, 2024)** is **Ready**. Ideally it takes less than a seconds. You have twenty minutes to answer the questions. Good luck!!
 
-This test is going to be a very short one feel free to run wild.
-
+# Questions
 
 1. create a vector of even numbers from 200 to 400 and save it in a variable called `my_even_number`. Print your result
 ```{webr-r}

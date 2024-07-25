@@ -42,7 +42,7 @@ Wait until `WEBR` status exactly under **TEST 1 (26th July, 2024)** is **Ready**
 
 ```
 
-7. Change the word **greatest** from lower to upper letter
+7. Change the word **greatest** from lower case to upper case.
 ```{webr-r}
 
 ```
@@ -52,7 +52,7 @@ Wait until `WEBR` status exactly under **TEST 1 (26th July, 2024)** is **Ready**
 
 ```
 
-9. create a sequence of number from -10 to 10. and save it to the variable name `my_number`. Confirm if `my_number` data type is a character data type
+9. create a sequence of number from -10 to 10. and save it in the variable name `my_number`. Confirm if `my_number` data type is a character data type
 ```{webr-r}
 
 

@@ -40,7 +40,7 @@ mean(my_even_number)
 498%%5
 ```
 
-7. Change the word **greatest** from lower to upper letter
+7. Change the word **greatest** from lower case to upper case
 ```{r}
 toupper("greatest")
 ```
@@ -50,7 +50,7 @@ toupper("greatest")
 sum(my_even_number, my_odd_number)
 ```
 
-9. create a sequence of number from -10 to 10. and save it to the variable name `my_number`. Confirm if `my_number` data type is a character data type
+9. create a sequence of number from -10 to 10. and save it in the variable name `my_number`. Confirm if `my_number` data type is a character data type
 ```{r}
 my_number <- -10:10
 

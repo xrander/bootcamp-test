@@ -2,6 +2,7 @@
 title: "EU StudyAssist"
 subtitle: "R for Research Test 1 (26th July 2024)"
 author: "Olamide Adu"
+keep-tex: false
 format: pdf
 linestretch: 1
 mainfont: "IBM Plex Sans"
@@ -26,7 +27,8 @@ length(my_even_number)
 
 3. create a vector of odd numbers from 30 to 108 and save it in a variable called `my_odd_number`
 ```{r}
-my_odd_number <- seq(29, 108, 2)
+my_odd_number <- seq(31, 108, 2)
+my_odd_number
 ```
 
 4. what is the median of `my_odd_number`

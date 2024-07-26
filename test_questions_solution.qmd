@@ -1,5 +1,6 @@
 ---
-title: "Test 1 (26th July 2024)"
+title: "EU StudyAssist"
+subtitle: "R for Research Test 1 (26th July 2024)"
 author: "Olamide Adu"
 format: pdf
 linestretch: 1
@@ -8,7 +9,7 @@ monofont: "Ubuntu Mono"
 ---
 
 # Instructions
-Wait until `WEBR` status exactly under **TEST 1 (26th July, 2024)** is **Ready**. Ideally it takes less than a seconds. You have twenty minutes to answer the questions. Do not reload the page. If you, you lose your progress. **Good luck!!**
+Wait until `WEBR STATUS` is `Ready`. Ideally it takes less than a seconds. You have twenty minutes to answer the questions. Do not reload the page. If you, you lose your progress. **Good luck!!**
 
 # Questions
 

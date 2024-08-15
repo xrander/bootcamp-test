@@ -22,7 +22,7 @@ engine: knitr
 
 ```{webr-r}
 #| context: setup
-install.packages(c("tidyverse", "readxl", "googlesheets4", "readODS", "car", "skimr", "janitor"))
+install.packages(c("tidyverse", "car", "skimr", "janitor"))
 url <- "https://raw.githubusercontent.com/xrander/bootcamp-test/master/data/inventory_data.csv"
 download.file(url, "inventory_data.csv")
 ```

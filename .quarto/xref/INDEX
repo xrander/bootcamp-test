@@ -7,5 +7,11 @@
   },
   "index.qmd": {
     "index.html": "f2bc0c44"
+  },
+  "test_1.qmd": {
+    "test_1.html": "021f40a0"
+  },
+  "test-2-solution.qmd": {
+    "test-2-solution.tex": "80edb83a"
   }
 }

@@ -17,7 +17,9 @@ install.packages(c("tidyverse", "readxl", "googlesheets4", "readODS", "car", "sk
 ```
 
 # Questions
-1. Import the data below
+1. Study the snapshot below for the following ODS file:
+
+![](images/ods_shot.png)
 
 ```{webr-r}
 

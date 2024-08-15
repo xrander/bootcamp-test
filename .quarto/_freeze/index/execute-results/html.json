@@ -1,8 +1,8 @@
 {
-  "hash": "8d6656aa069543696c562a7cad982312",
+  "hash": "0e982bc635129a625ea7060390f3e859",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"EU StudyAssist\"\nsubtitle: \"R for Research Test II (23rd August, 2024)\"\nformat: html\nfilters:\n  - webr\nengine: knitr\n---\n\n\n\n# Instructions\nWait until `WEBR status` is **Ready**. Wait for packages to be installed. You have twenty minutes to answer the questions. Do not reload the page. If you, you lose your progress. **Good luck!!**\n\n```{webr-r}\n#| context: setup\ninstall.packages(c(\"tidyverse\", \"readxl\", \"googlesheets4\", \"readODS\", \"car\", \"skimr\", \"janitor\"))\n```\n\n# Questions\n1. Import the data below",
+    "markdown": "---\ntitle: \"EU StudyAssist\"\nsubtitle: \"R for Research Test II (23rd August, 2024)\"\nformat: html\nfilters:\n  - webr\nengine: knitr\n---\n\n\n\n# Instructions\nWait until `WEBR status` is **Ready**. Wait for packages to be installed. You have twenty minutes to answer the questions. Do not reload the page. If you, you lose your progress. **Good luck!!**\n\n```{webr-r}\n#| context: setup\ninstall.packages(c(\"tidyverse\", \"readxl\", \"googlesheets4\", \"readODS\", \"car\", \"skimr\", \"janitor\"))\n```\n\n# Questions\n1. Study the snapshot below for the following ODS file:\n\n![](images/ods_shot.png)\n\n```{webr-r}\n\n```\n\n",
     "supporting": [
       "index_files"
     ],

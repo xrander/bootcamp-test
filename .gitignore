@@ -1,2 +1,5 @@
 /.quarto/
 .Rproj.user
+test_questions_solution.*
+test-2-solution.*
+.Rhistory

@@ -9,21 +9,132 @@ engine: knitr
 
 
 # Instructions
-Wait until `WEBR status` is **Ready**. Wait for packages to be installed. You have twenty minutes to answer the questions. Do not reload the page. If you, you lose your progress. **Good luck!!**
+-   Wait until `WEBR status` is **Ready**. This should take 15 seconds at the most depending on your internet connection speed.
+-   Do not reload the page as progress made is not recorded.
+-   Remember to load your packages, if it doesn't load, you can always install them.
+-   You have forty minutes to answer the questions.
+
+:::{.callout-important}
+**Do not reload the page.**
+:::
+
+ **Good luck!!**
 
 ```{webr-r}
 #| context: setup
 install.packages(c("tidyverse", "readxl", "googlesheets4", "readODS", "car", "skimr", "janitor"))
-ods_url <- "https://github.com/xrander/bootcamp-test/raw/master/data/inventory_data.xlsx"
-download.file(ods_url, "forest_inventory_data.ods")
+url <- "https://raw.githubusercontent.com/xrander/bootcamp-test/master/data/inventory_data.csv"
+download.file(url, "inventory_data.csv")
 ```
 
-# Questions
-1. Study the snapshot below for the following ODS file:
+# Question 1.
 
-![](images/ods_shot.png)
+There's a csv file named **"inventory_data.csv"**, import the file correctly, give it a variable name of your choice and print the last 6 observations
+
+```{webr-r}
+```
+
+# Question 2.
+
+Using any appropriate R function print the variable names of the file you just imported.
+
+```{webr-r}
+```
+
+# Question 3.
+
+What is the correlation between `area_ha` and `volume_m3_ha`.
+
+```{webr-r}
+```
+
+# Question 3b.
+
+Is the data positively or negatively correlated?
+
+> "Negatively correlated"
+
+# Question 4.
+
+Filter the data to return trees that have a the **minimum age** of **141**. With your result, draw a graph of `area_ha` on the **x-axis** and `volume_m3_ha` on the **y-axis**, and color / fill by species. 
+
+:::{.callout-note appearance="minimal"}
+The type of graph to draw is up to you
+:::
 
 ```{webr-r}
 
 ```
 
+# Question 4b.
+
+Which species is having the highest volume from the result of your graph?
+
+
+# Question 5.
+
+Find the mean increment for each tree species. Arrange your result in descending order of mean increment.
+
+```{webr-r}
+
+```
+
+# Question 6.
+
+From the result above, what species is having the highest mean increment? Show this graphically and change the fill color(s) with a color of your choosing. 
+
+:::{.callout-warning}
+Do not return the default color. You must choose a color.
+:::
+
+```{webr-r}
+```
+
+
+# Question 7.
+
+Produce a box plot for the volume of each species.
+```{webr-r}
+```
+
+# Question 7b.
+
+Is the above graph a good representation of the volume of the trees?
+
+```{webr-r}
+
+```
+
+# Question 8.
+
+Draw a line graph of `volume_m3_ha` **vs** `age_max`. Color the lines with species
+```{webr-r}
+```
+
+# Question 8b.
+
+What can you deduce from the line graph?
+
+```{webr-r}
+
+```
+
+# Question 9.
+
+Draw a line graph of `volume_m3_ha` vs `age_max`. Color the lines with species and let each species have their own plots.
+
+:::{.calloout-tip}
+`volume_m3_ha` in y-axis and `age_max` in x-axis
+The `facet_wrap()` function might be something to consider.
+:::
+
+```{webr-r}
+
+```
+
+# Question 10.
+
+Create a new variable named `mean_age`. The data of `mean_age` is the average of `age_max` and `age_min`. 
+
+```{webr-r}
+```

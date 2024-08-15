@@ -15,7 +15,9 @@ engine: knitr
 -   You have forty minutes to answer the questions.
 
 :::{.callout-important}
-**Do not reload the page.**
+-   **Do not reload the page.**
+-   **The pipe shortcut might not work. You'll need to input it manually.**
+-   Use %>% or |> to pipe.
 :::
 
  **Good luck!!**
@@ -52,14 +54,18 @@ What is the correlation between `area_ha` and `volume_m3_ha`.
 
 Is the data positively or negatively correlated?
 
-> "Negatively correlated"
+```{webr}
+
+```
+
 
 # Question 4.
 
-Filter the data to return trees that have a the **minimum age** of **141**. With your result, draw a graph of `area_ha` on the **x-axis** and `volume_m3_ha` on the **y-axis**, and color / fill by species. 
+Filter the data to return trees that have a the **minimum age** of **140**. With your result, plot a graph of `area_ha` on the **x-axis** and `volume_m3_ha` on the **y-axis**, and color / fill by species. 
 
 :::{.callout-note appearance="minimal"}
-The type of graph to draw is up to you
+-   The type of graph to draw is up to you.
+-   Do not forget to use **+** instead of |> to combine plots elements after calling `ggplot()`
 :::
 
 ```{webr-r}
@@ -70,6 +76,10 @@ The type of graph to draw is up to you
 
 Which species is having the highest volume from the result of your graph?
 
+
+```{webr}
+
+```
 
 # Question 5.
 
@@ -123,10 +133,11 @@ What can you deduce from the line graph?
 
 Draw a line graph of `volume_m3_ha` vs `age_max`. Color the lines with species and let each species have their own plots.
 
-:::{.calloout-tip}
-`volume_m3_ha` in y-axis and `age_max` in x-axis
-The `facet_wrap()` function might be something to consider.
+:::{.callout-tip}
+-   `volume_m3_ha` in y-axis and `age_max` in x-axis
+-   The `facet_wrap()` function might be something to consider.
 :::
+
 
 ```{webr-r}
 

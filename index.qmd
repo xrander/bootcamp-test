@@ -14,6 +14,8 @@ Wait until `WEBR status` is **Ready**. Wait for packages to be installed. You ha
 ```{webr-r}
 #| context: setup
 install.packages(c("tidyverse", "readxl", "googlesheets4", "readODS", "car", "skimr", "janitor"))
+ods_url <- "https://github.com/xrander/bootcamp-test/raw/master/data/inventory_data.xlsx"
+download.file(ods_url, "forest_inventory_data.ods")
 ```
 
 # Questions

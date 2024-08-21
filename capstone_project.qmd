@@ -6,11 +6,16 @@ bibliography: capstone.bib
 ---
 
 # Project Overview
-Students will apply the skills learned throughout the bootcamp to analyze a dataset from any of the two data provided below. They will use R to understand their data, perform exploratory data analysis (EDA), inferential statistics, and data visualization. The final output will include a final report written using Quarto and rendered to pdf and html. A sample report is available at [here](https://blog.olamideadu.com/posts/possum%20regression/). The assignment is to be submitted on your Github account on a repository called **r-for-research-capstone-project**.
+
+## Introduction
+Students will apply the skills learned throughout the bootcamp to analyze a dataset from any of the two projects provided below. They will use R to understand the data of the project they have choosen, perform exploratory data analysis (EDA), inferential statistics, and data visualization. 
+
+## Project Format and Submission
+The final output will include a final report written using Quarto and rendered to pdf and html. A sample report is available [here](https://blog.olamideadu.com/posts/possum%20regression/). The assignment is to be submitted on your Github account in a new repository called **r-for-research-capstone-project**. Add xrander as project collaborator to ensure you get the best guide from instructors.
 
 # The Data
 
-## Project I $CO_2$ Emission from Cereal Food Production
+## Project I: $CO_2$ Emission from Cereal Food Production
 ![Rice farmers- source: linkedin.com](images/rice_farmers.jpeg){width="450"}
 
 This data is an extract from @owid-carbon-deforestation-trade. It presents the emission from converting forest land to rice, wheat, and other cereal products for different countries. The data for this project is available here [here](https://raw.githubusercontent.com/xrander/bootcamp-test/master/data/emission_data.csv).
@@ -34,7 +39,7 @@ This data contains the following columns:
 - Perform inferential statistical analysis to see if there's a difference in emission between the products.
 - Communicate findings in a report.
 
-## Project II  Cuckoo Eggs Dimension
+## Project II:  Cuckoo Eggs Dimension
 
 ![Cuckoo Egg - source:theconversation.com](images/cuckoo-egg.jpeg)
 

@@ -1,6 +1,6 @@
 ---
 title: "R for Research Capstone Project"
-author: "Olamide ADU"
+author: "EU StudyAssist"
 format: pdf
 bibliography: capstone.bib
 ---
@@ -11,7 +11,9 @@ Students will apply the skills learned throughout the bootcamp to analyze a data
 # The Data
 
 ## Project I $CO_2$ Emission from Cereal Food Production
-This data is an extract from @owid-carbon-deforestation-trade. It presents the emission from converting forest land to rice, wheat, and other cereal products for different countries. The data for this project is available at []().
+![Rice farmers- source: linkedin.com](images/rice_farmers.jpeg){width="450"}
+
+This data is an extract from @owid-carbon-deforestation-trade. It presents the emission from converting forest land to rice, wheat, and other cereal products for different countries. The data for this project is available here [here](https://raw.githubusercontent.com/xrander/bootcamp-test/master/data/emission_data.csv).
 
 This data contains the following columns:
 
@@ -33,7 +35,10 @@ This data contains the following columns:
 - Communicate findings in a report.
 
 ## Project II  Cuckoo Eggs Dimension
-This data is from the DAAG package by @maindonald2015package. It presents measurement on 120 eggs lain in the nest of 6 different species of cuckoos. The data for this project is available at []().
+
+![Cuckoo Egg - source:theconversation.com](images/cuckoo-egg.jpeg)
+
+The data for this project is from the DAAG package by @maindonald2015package. It presents measurement on 120 eggs lain in the nest of 6 different species of cuckoos. The data for this project is available [here](https://raw.githubusercontent.com/xrander/bootcamp-test/master/data/cuckoo.csv).
 
 This data contains the following columns:
 

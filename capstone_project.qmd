@@ -1,0 +1,56 @@
+---
+title: "R for Research Capstone Project"
+author: "Olamide ADU"
+format: pdf
+bibliography: capstone.bib
+---
+
+# Project Overview
+Students will apply the skills learned throughout the bootcamp to analyze a dataset from any of the two data provided below. They will use R to understand their data, perform exploratory data analysis (EDA), inferential statistics, and data visualization. The final output will include a final report written using Quarto and rendered to pdf and html. A sample report is available at [here](https://blog.olamideadu.com/posts/possum%20regression/). The assignment is to be submitted on your Github account on a repository called **r-for-research-capstone-project**.
+
+# The Data
+
+## Project I $CO_2$ Emission from Cereal Food Production
+This data is an extract from @owid-carbon-deforestation-trade. It presents the emission from converting forest land to rice, wheat, and other cereal products for different countries. The data for this project is available at []().
+
+This data contains the following columns:
+
+|**Variable**|**Meaning**|
+|----|----|
+|entity|Country name|
+|code|The country code|
+|products|The cereal food|
+|emission|Total $CO_2$ emission in tonnes|
+|per_capita_emission|Deforestation emission per person|
+
+**Objectives:**
+
+- Import your data
+- convert emission from tonnes to kilotonne.
+- Conduct exploratory data analysis (EDA).
+- Visualize data using appropriate plots.
+- Perform inferential statistical analysis to see if there's a difference in emission between the products.
+- Communicate findings in a report.
+
+## Project II  Cuckoo Eggs Dimension
+This data is from the DAAG package by @maindonald2015package. It presents measurement on 120 eggs lain in the nest of 6 different species of cuckoos. The data for this project is available at []().
+
+This data contains the following columns:
+
+|**Variable**|**Meaning**|
+|-----|-----|
+|length|The length of eggs in millimeters|
+|breadth|The breadth of eggs in millimeters|
+|species|Six species of birth species|
+
+**Objectives**
+
+- Import your data
+- Conduct exploratory data analysis (EDA).
+- Visualize data using appropriate plots.
+- Perform inferential statistical analysis to see if there's a difference in breadth of eggs laid by the bird species.
+- Perform inferential statistical analysis to see if there's a difference in length of eggs laid by the bird species.
+- Communicate findings in a report.
+
+
+# References
